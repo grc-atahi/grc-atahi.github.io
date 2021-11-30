@@ -69,7 +69,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(252, 253, 253, 0.534); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(252, 253, 253, 0.781); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px white;
 }
@@ -83,36 +83,38 @@ html, body {
 
 h1 {
 	font-family: le-monde-livre-std, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 2em;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2.5em;
     margin: 0px auto 10px auto;
     color: rgb(0, 0, 0);
 }
 
 h2 {
-	font-family: le-monde-livre-std, serif;
-	font-weight: 300;
-	font-style: italic;
-	font-size: 1.5em;
+	font-family: ivypresto-display, serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 2em;
     line-height: 1.4;
     color: rgb(0, 0, 0);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
-p {
+p {	
 	font-family: ivypresto-display, serif;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 1.2em;
-    line-height: 3;
+	font-size: 1.5em;
+    line-height: 1;
     color: rgb(0, 0, 0);
+	padding: 0px 0px;
+    margin: 0px auto 25px auto;
 }
     
 nav{
-	font-family: mina, serif;
-	font-weight: 400;
+	font-family: lemonde-journal, serif;
+	font-weight: 700;
 	font-style: normal;
 	width:400px;
 	margin:0 auto;
@@ -125,17 +127,17 @@ nav li{
 	}
 
 nav a{
-	display:inline-block;
+	display:list-item;
 	padding: 10px;
 	}
 
 a{
 	color:#444;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 	}
 
 a:hover{
 	color:black;
-	background:rgba(79, 135, 255, 0.253);
+	background:rgba(155, 79, 255, 0.493);
 	}
